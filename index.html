@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Silveira">
+    <meta name="keywords" content="JavaScript, JS, Matheus Silveira, Jokenpô">
+    <meta name="description" content="Jokenpô em JS ">
+    
+    <title>Jokenpô</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Jokenpô</h1>
+    <h2>Escolha uma  das opções e clique no botão</h2>
+    <ul> 
+        <li><img src="pedra.jpg" alt="Pedra" class="pedra" onclick="pedraTurnRdy()"></li>
+        <li><img src="papel.jpg" alt="Papel"  class="papel" onclick="papelTurnRdy()"></li>
+        <li><img src="tesoura.jpg" alt="Tesoura" class="tesoura" onclick="tesouraTurnRdy()" ></li>
+    </ul>
+
+    <button id = "button" onclick="jogada()"> FAÇA A SUA JOGADA!!!</button>
+    
+    <hr>
+
+    <div id="historico">
+
+    </div>
+    
+    <div id="imagens">
+        <img src="" id="humanoFoto"> 
+        <img src="" id="maquinaFoto">
+    </div>
+
+    <div id="vencedor">
+
+    </div>
+
+    <script src="jokenpojs.js"></script>
+</body>
+</html>
