@@ -34,6 +34,10 @@ h2 {
     margin-top: -10px;
 }
 
+h1:hover, h2:hover { 
+    color: #fff;
+}
+
 h4 { 
     margin-top: -10px;
     
@@ -47,25 +51,16 @@ img#humanoFoto, img#maquinaFoto {
     margin: 5px;
 }
 
-    #button {
-        font-family: arial;
-        font-weight: bold;
-        color: black !important;
-        font-size: 18px;
-        box-shadow: 4px 3px 10px #BEE2F9;
-        padding: 15px 37px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        border: 0.5px solid #000000;
-        background: #A0AB9D;
-        background: linear-gradient(top,  #427EA6,  #5D99A8);
-        background: -ms-linear-gradient(top,  #427EA6,  #5D99A8);
-        background: -webkit-gradient(linear, left top, left bottom, from(#427EA6), to(#5D99A8));
-        background: -moz-linear-gradient(top,  #427EA6,  #5D99A8);
-        cursor: pointer;
-      }
-      #button:hover {
-        color: #000000 !important;
-        background: #CF89A0;
-      }
+#button {
+    border: 1px solid aliceblue;;
+    padding: 13px;
+    background:lightblue;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+      
+#button:hover {
+    background: rgb(18, 171, 223);
+    border: 1px solid black;
+}
